@@ -1,8 +1,19 @@
 body {
   background: black;
+  color: white;
 }
 
 * {
   margin: 0;
   padding: 0;
+}
+
+#chungus {
+  text-align: right;
+  padding: 1em;
+  font-family: serif;
+  background: url(chungus.png);
+  background-size: cover;
+  background-position-y: 50%;
+  height: 100vh;
 }
