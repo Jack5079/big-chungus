@@ -8,7 +8,7 @@ function checkVisible (elm) {
   return !(rect.bottom < 0 || rect.top - viewHeight >= 0)
 }
 
-const chung = document.getElementById('chungus')
+const chung = document.getElementById('bigs')
 const bigmusic = new Audio('chungus.mp3')
 const scalemusic = new Audio('scale.mp3')
 scalemusic.loop = true

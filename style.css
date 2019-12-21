@@ -10,10 +10,40 @@ body {
 
 #chungus {
   text-align: right;
-  padding: 1em;
+  padding: 5em;
   font-family: serif;
   background: url(chungus.png);
+  background-color: darkslategray;
+  border-radius: 50%;
   background-size: cover;
-  background-position-y: 50%;
-  height: 100vh;
+  background-position-y: 43%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#bigger {
+  text-align: right;
+  padding: 5em;
+  font-family: serif;
+  background: url(chungus.png);
+  background-color: red;
+  border-radius: 50%;
+  background-size: 100% 100%;
+  background-position-y: 43%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#biggest {
+  text-align: right;
+  padding: 5em;
+  font-family: serif;
+  background: url(chungus.png);
+  background-color: red;
+  border-radius: 50%;
+  background-size: 200% 200%;
+  background-position-y: 43%;
+  background-position-x: 50%;
+  height: 100%;
+  overflow: hidden;
 }
