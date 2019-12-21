@@ -26,4 +26,8 @@ window.addEventListener('scroll', e => {
 // Just so it can check if it's there on small screens
 if (checkVisible(chung)) {
   bigmusic.play()
-} else bigmusic.pause()
+  scalemusic.pause()
+} else {
+  bigmusic.pause()
+  scalemusic.play()
+}
